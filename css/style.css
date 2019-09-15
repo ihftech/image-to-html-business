@@ -1,0 +1,341 @@
+/* global css start */
+body{
+	margin: 0;
+	padding: 0;
+
+}
+.wrapper{
+	width: 70%;
+	margin: 0 auto;
+	overflow: hidden;
+}
+/* global css end */
+/* header start */
+header{
+	background-image: url('../images/banner.jpg');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.top_bar{
+	border-bottom: 1px solid white;
+	padding: 15px 0;
+}
+.logo{
+	width: 10%;
+	float: left;
+}
+.logo img{
+	width: 100%;
+	vertical-align: middle;
+}
+nav{
+	width: 60%;
+	float: right;
+	margin-top: 3px;
+}
+nav ul{
+	float: right;
+	margin: 0;
+}
+nav ul li{
+	float: left;
+	list-style: none;
+}
+nav ul li a{
+	text-decoration: none;
+	font-family: sans-serif;
+	font-size: 16px;
+	color: rgba(255,255,255,.7);
+	padding: 0 20px;
+	transition: .4s;
+}
+nav ul li a:last-child{
+	padding-right: 0;
+}
+nav ul li a:hover{
+	color: white;
+}
+nav ul li a.active{
+	color: #9acd32;
+}
+.banner{
+	text-align: center;
+	padding: 240px 0 210px;
+}
+.banner h1{
+	font-family: sans-serif;
+	font-weight: 300;
+	font-size: 100px;
+	color: white;
+	margin: 0;
+}
+.banner p{
+	font-family: sans-serif;
+	font-size: 18px;
+	color: white;
+}
+.banner button{
+	border: none;
+	font-family: sans-serif;
+	font-size: 20px;
+	color: white;
+	background: #9acd32;
+	padding: 15px 30px;
+	border-radius: 30px;
+	margin-top: 40px;
+	transition: .3s;
+}
+.banner button:hover{
+	background-color: #32CD32;
+}
+/* header end */
+/* relationship start */
+.relationship{
+	background-color: #9BCE33;
+	text-align: center;
+	padding: 70px 0;
+}
+.relationship h2{
+	font-family: sans-serif;
+	font-weight: 500;
+	font-size: 32px;
+	color: white;
+	margin: 6px 0;
+}
+.relationship p{
+	font-family: sans-serif;
+	font-size: 16px;
+	color: white;
+	padding: 0 303px;
+}
+/* relationship end */
+/* class start */
+.class{
+	padding: 70px 0;
+}
+.class .left{
+	width: 49%;
+	float: left;
+}
+.class .left img{
+	width: 100%;
+	border-radius: 50%;
+	float: right;
+}
+.class .right{
+	width: 49%;
+	float: left;
+	margin: 60px 0 0 24px;
+}
+.class .right h2{
+	font-family: sans-serif;
+	font-weight: 500;
+	font-size: 30px;
+	margin: 0;
+}
+.class .right p{
+	font-family: sans-sarif;
+	font-size: 21px;
+	color: #777;
+	padding-right: 130px;
+
+}
+.class button{
+	border: none;
+	font-family: sans-serif;
+	font-size: 20px;
+	color: white;
+	background: #9acd32;
+	padding: 15px 30px;
+	border-radius: 30px;
+	text-transform: uppercase;
+	transition: .3s;
+}
+.class button:hover{
+	background-color: #32CD32;
+}
+/* class end */
+/* quality start */
+.quality{
+	padding: 70px 0;
+	background-color: #222222;
+}
+.quality .left{
+	width: 49%;
+	float: left;
+	margin-top: 60px;
+}
+.quality .left h2{
+	font-family: sans-serif;
+	font-weight: 500;
+	font-size: 30px;
+	color: white;
+	margin: 0;
+}
+.quality .left p{
+	font-family: sans-sarif;
+	font-size: 21px;
+	color: #BDBDBD;
+	padding-right: 30px;
+}
+.quality button{
+	border: none;
+	font-family: sans-serif;
+	font-size: 20px;
+	color: black;
+	background: white;
+	padding: 15px 30px;
+	border-radius: 30px;
+	text-transform: uppercase;
+	transition: .3s;
+}
+.quality button:hover{
+	background-color: #32CD32;
+}
+.quality .right{
+	width: 49%;
+	float: left;
+}
+.quality .right img{
+	width: 100%;
+	border-radius: 50%;
+	float: left;
+}
+/* quality end */
+/* gallery start */
+.gallery{
+	overflow: hidden;
+}
+.item1{
+	width: 33%;
+	background-image: url('../images/unleash.jpg');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	float: left;
+	/* display: block; */
+}
+.item1 h3{
+	font-family: sans-serif;
+	font-size: 40px;
+	color: white;
+	margin: 0;
+	text-align: center;
+	padding: 80px 0;
+	text-shadow: 0px 0px 40px black;
+	transition: .3s;
+}
+.item1 h3:hover{
+	border: 10px solid black;
+}
+.item2{
+	width: 34%;
+	background-image: url('../images/synergy.jpg');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	float: left;
+	/* display: block; */
+}
+.item2 h3{
+	font-family: sans-serif;
+	font-size: 40px;
+	color: white;
+	margin: 0;
+	text-align: center;
+	padding: 80px 0;
+	text-shadow: 0px 0px 40px black;
+	transition: .3s;
+}
+.item2 h3:hover{
+	border: 10px solid black;
+}
+.item3{
+	width: 33%;
+	background-image: url('../images/procrastinate.jpg');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	float: right;
+	/* display: block; */
+}
+.item3 h3{
+	font-family: sans-serif;
+	font-size: 40px;
+	color: white;
+	margin: 0;
+	text-align: center;
+	padding: 80px 0;
+	text-shadow: 0px 0px 40px black;
+	transition: .3s;
+}
+.item3 h3:hover{
+	border: 10px solid black;
+}
+/* gallery end */
+/* sanity start */
+.sanity{
+	text-align: center;
+	padding: 70px 0;
+}
+.sanity h2{
+	font-family: sans-serif;
+	font-weight: 500;
+	font-size: 32px;
+	color: #333;
+	margin: 6px 0;
+}
+.sanity p{
+	font-family: sans-serif;
+	font-size: 21px;
+	font-weight: 300;
+	color: #777;
+	line-height: 1.4;
+	padding: 0 72px;
+}
+.sanity button {
+    border: none;
+    font-family: sans-serif;
+    font-size: 20px;
+    color: white;
+    background: #9acd32;
+    padding: 15px 30px;
+    border-radius: 30px;
+    text-transform: uppercase;
+    transition: .3s;
+   }
+.sanity button:hover{
+	background-color: #32CD32;
+}
+/* sanity end */
+/* contact start */
+.contact{
+	background-color: #9BCE33;
+	text-align: center;
+	padding: 70px 0;
+}
+.contact h2{
+	font-family: sans-serif;
+	font-weight: 500;
+	font-size: 32px;
+	color: white;
+}
+.contact p{
+	font-family: sans-serif;
+	font-size: 22px;
+	color: white;
+	margin-top: 10px;
+}
+/* contact end */
+/* footer start */
+footer{
+	padding: 30px 0;
+	text-align: center;
+}
+footer p{
+	font-family: sans-serif;
+	font-size: 16px;
+	color: #777;
+}
+/* footer end */
