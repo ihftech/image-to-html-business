@@ -115,7 +115,7 @@ nav ul li a.active{
 	padding: 70px 0;
 }
 .class .left{
-	width: 49%;
+	width: 45%;
 	float: left;
 }
 .class .left img{
@@ -124,21 +124,18 @@ nav ul li a.active{
 	float: right;
 }
 .class .right{
-	width: 49%;
-	float: left;
-	margin: 60px 0 0 24px;
+	width: 45%;
+	float: right;
 }
 .class .right h2{
 	font-family: sans-serif;
 	font-weight: 500;
 	font-size: 30px;
-	margin: 0;
 }
 .class .right p{
 	font-family: sans-sarif;
 	font-size: 21px;
 	color: #777;
-	padding-right: 130px;
 
 }
 .class button{
@@ -162,22 +159,19 @@ nav ul li a.active{
 	background-color: #222222;
 }
 .quality .left{
-	width: 49%;
+	width: 45%;
 	float: left;
-	margin-top: 60px;
 }
 .quality .left h2{
 	font-family: sans-serif;
 	font-weight: 500;
 	font-size: 30px;
 	color: white;
-	margin: 0;
 }
 .quality .left p{
 	font-family: sans-sarif;
 	font-size: 21px;
 	color: #BDBDBD;
-	padding-right: 30px;
 }
 .quality button{
 	border: none;
@@ -194,8 +188,8 @@ nav ul li a.active{
 	background-color: #32CD32;
 }
 .quality .right{
-	width: 49%;
-	float: left;
+	width: 45%;
+	float: right;
 }
 .quality .right img{
 	width: 100%;
@@ -214,6 +208,7 @@ nav ul li a.active{
 	background-repeat: no-repeat;
 	background-size: cover;
 	float: left;
+	/* display: block; */
 }
 .item1 h3{
 	font-family: sans-serif;
@@ -236,6 +231,7 @@ nav ul li a.active{
 	background-repeat: no-repeat;
 	background-size: cover;
 	float: left;
+	/* display: block; */
 }
 .item2 h3{
 	font-family: sans-serif;
@@ -258,6 +254,7 @@ nav ul li a.active{
 	background-repeat: no-repeat;
 	background-size: cover;
 	float: right;
+	/* display: block; */
 }
 .item3 h3{
 	font-family: sans-serif;
